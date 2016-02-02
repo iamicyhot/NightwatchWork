@@ -1,0 +1,21 @@
+
+module.exports = {
+'digg facebook login' : function (client) {
+
+     var fbcredentials = require('./credentials.json');  
+    
+    client
+      .url('http://digg.com')
+      .waitForElementVisible('body', 6000)
+      .click('.btn-login')
+	  .waitForElementVisible('#btn-facebook-auth', 6000)
+      .click('#btn-facebook-auth')
+	  .waitForElementVisible('#email', 10000)
+	  .setValue('#email', fbcredentials.username)
+	  .setValue('#pass', fbcredentials.password)
+	  .click("input[type='submit']")
+	  .waitForElementVisible("span[title='Account']",60000)
+	  .click("span[title='Account']")
+	  .click("a[href='/logout']");
+  }
+}
