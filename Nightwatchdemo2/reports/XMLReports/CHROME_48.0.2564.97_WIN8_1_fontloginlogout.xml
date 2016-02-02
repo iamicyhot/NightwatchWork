@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="fontloginlogout"
+    errors="1" failures="0" hostname="" id="" package="fontloginlogout" skipped="0"
+    tests="1" time="11.79" timestamp="Tue, 02 Feb 2016 13:48:13 GMT">
+  
+    <testcase name="fonts.com login" time="11.79" assertions="1">
+<system-out>[[ATTACHMENT|C:\Users\satijaa\Documents\GitHub\NightwatchWork\Nightwatchdemo2\screenshots\Chrome\ERROR_T,-02-02,-2016-AD,-71825-PM-GMT+530.png]]</system-out>
+    
+    </testcase>
+      <system-err>
+        Unable to locate element: &quot;ul[class=&#39;ajax-dropdown signinform&#39;] li[data-action=&#39;target&#39;] #member-signin-section #hovered-member-signin-section form[action=&#39;https://howdy.fonts.com/other/customer/signin&#39;] #UserName&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
