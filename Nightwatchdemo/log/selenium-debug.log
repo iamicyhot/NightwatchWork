@@ -1,0 +1,127 @@
+12:21:25.968 INFO - Launching a standalone server
+Setting system property webdriver.chrome.driver to lib/drivers/chromedriver.exe
+Setting system property webdriver.ie.driver to lib/drivers/IEDriverServer.exe
+12:21:26.149 INFO - Java: Oracle Corporation 25.51-b03
+12:21:26.149 INFO - OS: Windows 8.1 6.3 amd64
+12:21:26.170 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+12:21:26.429 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+12:21:26.431 INFO - Version Jetty/5.1.x
+12:21:26.434 INFO - Started HttpContext[/selenium-server,/selenium-server]
+12:21:26.550 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1b40d5f0
+12:21:26.550 INFO - Started HttpContext[/wd,/wd]
+12:21:26.550 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+12:21:26.551 INFO - Started HttpContext[/,/]
+12:21:26.558 INFO - Started SocketListener on 0.0.0.0:4444
+12:21:26.559 INFO - Started org.openqa.jetty.jetty.Server@7cd84586
+12:21:27.802 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+12:21:27.802 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+12:21:27.827 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+12:21:27.827 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 12429
+Starting ChromeDriver (v2.9.248315) on port 37991
+12:21:30.240 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+12:21:30.287 INFO - Executing: [delete all cookies])
+12:21:32.168 INFO - Done: [delete all cookies]
+12:21:32.183 INFO - Executing: [maximise window])
+12:21:32.407 INFO - Done: [maximise window]
+12:21:32.416 INFO - Executing: [get: https://staging.swyftmedia.com])
+12:21:32.917 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+12:21:32.945 INFO - Executing: [delete all cookies])
+12:21:33.100 INFO - Done: [delete all cookies]
+12:21:33.113 INFO - Executing: [maximise window])
+12:21:33.337 INFO - Done: [maximise window]
+12:21:33.346 INFO - Executing: [get: https://staging.swyftmedia.com])
+12:21:40.423 INFO - Done: [get: https://staging.swyftmedia.com]
+12:21:40.439 INFO - Executing: [find elements: By.cssSelector: input[name=username]])
+12:21:40.527 INFO - Done: [find elements: By.cssSelector: input[name=username]]
+12:21:40.540 INFO - Executing: [find element: By.cssSelector: input[name=username]])
+12:21:40.586 INFO - Done: [find element: By.cssSelector: input[name=username]]
+12:21:40.597 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (d3579e34e7e93eb4828fa75005e5f6ad)] -> css selector: input[name=username]], [a, b, h, i, m, a, n, y, u, ., y, a, d, a, v, @, m, o, n, o, t, y, p, e, ., c, o, m]])
+12:21:40.787 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (d3579e34e7e93eb4828fa75005e5f6ad)] -> css selector: input[name=username]], [a, b, h, i, m, a, n, y, u, ., y, a, d, a, v, @, m, o, n, o, t, y, p, e, ., c, o, m]]
+12:21:40.803 INFO - Executing: [find elements: By.cssSelector: input[name=password]])
+12:21:40.915 INFO - Done: [find elements: By.cssSelector: input[name=password]]
+12:21:40.923 INFO - Executing: [find element: By.cssSelector: input[name=password]])
+12:21:40.962 INFO - Done: [find element: By.cssSelector: input[name=password]]
+12:21:40.971 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (d3579e34e7e93eb4828fa75005e5f6ad)] -> css selector: input[name=password]], [M, o, n, o, t, y, p, e, 1, 2, 3, #]])
+12:21:41.148 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (d3579e34e7e93eb4828fa75005e5f6ad)] -> css selector: input[name=password]], [M, o, n, o, t, y, p, e, 1, 2, 3, #]]
+12:21:41.158 INFO - Executing: [find elements: By.cssSelector: input[value="Sign in"]])
+12:21:41.200 INFO - Done: [find elements: By.cssSelector: input[value="Sign in"]]
+12:21:41.207 INFO - Executing: [find element: By.cssSelector: input[value="Sign in"]])
+12:21:41.245 INFO - Done: [find element: By.cssSelector: input[value="Sign in"]]
+12:21:41.252 INFO - Executing: [click: 2 [[ChromeDriver: chrome on WIN8_1 (d3579e34e7e93eb4828fa75005e5f6ad)] -> css selector: input[value="Sign in"]]])
+12:21:41.364 INFO - Done: [click: 2 [[ChromeDriver: chrome on WIN8_1 (d3579e34e7e93eb4828fa75005e5f6ad)] -> css selector: input[value="Sign in"]]]
+12:21:41.377 WARN - Exception thrown
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:141)
+	at org.openqa.selenium.remote.server.handler.BySelector.pickFrom(BySelector.java:37)
+	at org.openqa.selenium.remote.server.handler.BySelector.pickFromJsonParameters(BySelector.java:30)
+	at org.openqa.selenium.remote.server.handler.FindElement.setJsonParameters(FindElement.java:41)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:98)
+	at org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:172)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:201)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:163)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:680)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:571)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1526)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1479)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:920)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:358)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:537)
+12:21:41.381 WARN - Exception: Cannot find elements when the selector is null
+12:21:41.423 INFO - Executing: [get title])
+12:21:41.436 INFO - Done: [get title]
+12:21:52.162 INFO - Done: [get: https://staging.swyftmedia.com]
+12:21:52.176 INFO - Executing: [find elements: By.cssSelector: input[name=username]])
+12:21:52.215 INFO - Done: [find elements: By.cssSelector: input[name=username]]
+12:21:52.227 INFO - Executing: [find element: By.cssSelector: input[name=username]])
+12:21:52.265 INFO - Done: [find element: By.cssSelector: input[name=username]]
+12:21:52.274 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (a00ca0f776634b1b4356ee62dae19292)] -> css selector: input[name=username]], [a, b, h, i, m, a, n, y, u, ., y, a, d, a, v, @, m, o, n, o, t, y, p, e, ., c, o, m]])
+12:21:52.460 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (a00ca0f776634b1b4356ee62dae19292)] -> css selector: input[name=username]], [a, b, h, i, m, a, n, y, u, ., y, a, d, a, v, @, m, o, n, o, t, y, p, e, ., c, o, m]]
+12:21:52.478 INFO - Executing: [find elements: By.cssSelector: input[name=password]])
+12:21:52.584 INFO - Done: [find elements: By.cssSelector: input[name=password]]
+12:21:52.592 INFO - Executing: [find element: By.cssSelector: input[name=password]])
+12:21:52.629 INFO - Done: [find element: By.cssSelector: input[name=password]]
+12:21:52.635 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (a00ca0f776634b1b4356ee62dae19292)] -> css selector: input[name=password]], [M, o, n, o, t, y, p, e, 1, 2, 3, #]])
+12:21:52.817 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (a00ca0f776634b1b4356ee62dae19292)] -> css selector: input[name=password]], [M, o, n, o, t, y, p, e, 1, 2, 3, #]]
+12:21:52.824 INFO - Executing: [find elements: By.cssSelector: input[value="Sign in"]])
+12:21:52.872 INFO - Done: [find elements: By.cssSelector: input[value="Sign in"]]
+12:21:52.879 INFO - Executing: [find element: By.cssSelector: input[value="Sign in"]])
+12:21:52.919 INFO - Done: [find element: By.cssSelector: input[value="Sign in"]]
+12:21:52.925 INFO - Executing: [click: 2 [[ChromeDriver: chrome on WIN8_1 (a00ca0f776634b1b4356ee62dae19292)] -> css selector: input[value="Sign in"]]])
+12:21:53.005 INFO - Done: [click: 2 [[ChromeDriver: chrome on WIN8_1 (a00ca0f776634b1b4356ee62dae19292)] -> css selector: input[value="Sign in"]]]
+12:21:53.014 WARN - Exception thrown
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:141)
+	at org.openqa.selenium.remote.server.handler.BySelector.pickFrom(BySelector.java:37)
+	at org.openqa.selenium.remote.server.handler.BySelector.pickFromJsonParameters(BySelector.java:30)
+	at org.openqa.selenium.remote.server.handler.FindElement.setJsonParameters(FindElement.java:41)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:98)
+	at org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:172)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:201)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:163)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:680)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:571)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1526)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1479)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:920)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:358)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:537)
+12:21:53.014 WARN - Exception: Cannot find elements when the selector is null
+12:21:53.040 INFO - Executing: [get title])
+12:21:53.051 INFO - Done: [get title]

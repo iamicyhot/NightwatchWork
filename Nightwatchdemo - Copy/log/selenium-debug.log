@@ -1,0 +1,73 @@
+18:14:11.159 INFO - Launching a standalone server
+Setting system property webdriver.chrome.driver to lib/drivers/chromedriver.exe
+Setting system property webdriver.ie.driver to lib/drivers/IEDriverServer.exe
+18:14:11.342 INFO - Java: Oracle Corporation 25.51-b03
+18:14:11.342 INFO - OS: Windows 8.1 6.3 amd64
+18:14:11.362 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+18:14:11.631 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+18:14:11.634 INFO - Version Jetty/5.1.x
+18:14:11.636 INFO - Started HttpContext[/selenium-server,/selenium-server]
+18:14:11.754 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@23223dd8
+18:14:11.755 INFO - Started HttpContext[/wd,/wd]
+18:14:11.755 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+18:14:11.755 INFO - Started HttpContext[/,/]
+18:14:11.764 INFO - Started SocketListener on 0.0.0.0:4444
+18:14:11.764 INFO - Started org.openqa.jetty.jetty.Server@133314b
+18:14:12.326 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+18:14:12.352 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 26892
+18:14:14.694 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Samstest V2, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+18:14:14.725 INFO - Executing: [delete all cookies])
+18:14:16.757 INFO - Done: [delete all cookies]
+18:14:16.774 INFO - Executing: [maximise window])
+18:14:16.997 INFO - Done: [maximise window]
+18:14:17.005 INFO - Executing: [get: https://staging.swyftmedia.com])
+18:14:32.691 INFO - Done: [get: https://staging.swyftmedia.com]
+18:14:32.706 INFO - Executing: [find elements: By.cssSelector: input[name=username]])
+18:14:32.782 INFO - Done: [find elements: By.cssSelector: input[name=username]]
+18:14:32.796 INFO - Executing: [find element: By.cssSelector: input[name=username]])
+18:14:32.843 INFO - Done: [find element: By.cssSelector: input[name=username]]
+18:14:32.853 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (c7e455c81f2f830fb44254104403b836)] -> css selector: input[name=username]], [a, b, h, i, m, a, n, y, u, ., y, a, d, a, v, @, m, o, n, o, t, y, p, e, ., c, o, m]])
+18:14:33.025 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on WIN8_1 (c7e455c81f2f830fb44254104403b836)] -> css selector: input[name=username]], [a, b, h, i, m, a, n, y, u, ., y, a, d, a, v, @, m, o, n, o, t, y, p, e, ., c, o, m]]
+18:14:33.042 INFO - Executing: [find elements: By.cssSelector: input[name=password]])
+18:14:33.155 INFO - Done: [find elements: By.cssSelector: input[name=password]]
+18:14:33.164 INFO - Executing: [find element: By.cssSelector: input[name=password]])
+18:14:33.209 INFO - Done: [find element: By.cssSelector: input[name=password]]
+18:14:33.218 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (c7e455c81f2f830fb44254104403b836)] -> css selector: input[name=password]], [M, o, n, o, t, y, p, e, 1, 2, 3, #]])
+18:14:33.396 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (c7e455c81f2f830fb44254104403b836)] -> css selector: input[name=password]], [M, o, n, o, t, y, p, e, 1, 2, 3, #]]
+18:14:33.405 INFO - Executing: [find elements: By.cssSelector: input[value="Sign in"]])
+18:14:33.453 INFO - Done: [find elements: By.cssSelector: input[value="Sign in"]]
+18:14:33.462 INFO - Executing: [find element: By.cssSelector: input[value="Sign in"]])
+18:14:33.501 INFO - Done: [find element: By.cssSelector: input[value="Sign in"]]
+18:14:33.508 INFO - Executing: [click: 2 [[ChromeDriver: chrome on WIN8_1 (c7e455c81f2f830fb44254104403b836)] -> css selector: input[value="Sign in"]]])
+18:14:33.588 INFO - Done: [click: 2 [[ChromeDriver: chrome on WIN8_1 (c7e455c81f2f830fb44254104403b836)] -> css selector: input[value="Sign in"]]]
+18:14:33.598 WARN - Exception thrown
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:141)
+	at org.openqa.selenium.remote.server.handler.BySelector.pickFrom(BySelector.java:37)
+	at org.openqa.selenium.remote.server.handler.BySelector.pickFromJsonParameters(BySelector.java:30)
+	at org.openqa.selenium.remote.server.handler.FindElement.setJsonParameters(FindElement.java:41)
+	at org.openqa.selenium.remote.server.rest.ResultConfig.handle(ResultConfig.java:98)
+	at org.openqa.selenium.remote.server.JsonHttpCommandHandler.handleRequest(JsonHttpCommandHandler.java:172)
+	at org.openqa.selenium.remote.server.DriverServlet.handleRequest(DriverServlet.java:201)
+	at org.openqa.selenium.remote.server.DriverServlet.doPost(DriverServlet.java:163)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.openqa.selenium.remote.server.DriverServlet.service(DriverServlet.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.openqa.jetty.jetty.servlet.ServletHolder.handle(ServletHolder.java:428)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.dispatch(ServletHandler.java:680)
+	at org.openqa.jetty.jetty.servlet.ServletHandler.handle(ServletHandler.java:571)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1526)
+	at org.openqa.jetty.http.HttpContext.handle(HttpContext.java:1479)
+	at org.openqa.jetty.http.HttpServer.service(HttpServer.java:920)
+	at org.openqa.jetty.http.HttpConnection.service(HttpConnection.java:820)
+	at org.openqa.jetty.http.HttpConnection.handleNext(HttpConnection.java:986)
+	at org.openqa.jetty.http.HttpConnection.handle(HttpConnection.java:837)
+	at org.openqa.jetty.http.SocketListener.handleConnection(SocketListener.java:243)
+	at org.openqa.jetty.util.ThreadedServer.handle(ThreadedServer.java:358)
+	at org.openqa.jetty.util.ThreadPool$PoolThread.run(ThreadPool.java:537)
+18:14:33.603 WARN - Exception: Cannot find elements when the selector is null
+18:14:33.643 INFO - Executing: [get title])
+18:14:33.654 INFO - Done: [get title]
+18:14:33.663 INFO - Executing: [delete session: a35c8057-b81e-477c-afe7-0d7a21d5541f])
+18:14:35.096 INFO - Done: [delete session: a35c8057-b81e-477c-afe7-0d7a21d5541f]
