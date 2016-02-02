@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="samstest_v2 - Copy"
+    errors="0" failures="0" hostname="" id="" package="samstest_v2 - Copy" skipped="0"
+    tests="1" time="13.05" timestamp="Mon, 01 Feb 2016 13:24:37 GMT">
+  
+    <testcase name="digg facebook login" time="13.05" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
