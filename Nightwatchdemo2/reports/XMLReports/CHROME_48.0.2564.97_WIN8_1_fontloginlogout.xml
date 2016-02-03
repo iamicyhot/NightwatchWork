@@ -5,9 +5,9 @@
 
   <testsuite name="fontloginlogout"
     errors="0" failures="0" hostname="" id="" package="fontloginlogout" skipped="0"
-    tests="1" time="16.80" timestamp="Wed, 03 Feb 2016 10:22:16 GMT">
+    tests="1" time="19.06" timestamp="Wed, 03 Feb 2016 13:12:02 GMT">
   
-    <testcase name="fonts.com login" time="16.80" assertions="6">
+    <testcase name="fonts.com login" time="19.06" assertions="6">
 
     
 

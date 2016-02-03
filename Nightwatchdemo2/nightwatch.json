@@ -5,7 +5,13 @@
   "custom_assertions_path" : "",
   "page_objects_path" : "pages",
   "globals_path" : "data/credentials.js",
-
+  "waitForConditionPollInterval" : 5000,
+  "waitForConditionTimeout": 10000,
+  "globals" : {
+  "waitForConditionPollInterval" : 5000,
+  "waitForConditionTimeout": 10000
+},
+  
   "selenium" : {
     "start_process" : true,
     "server_path" : "lib/selenium/selenium-server-standalone-2.45.0.jar",
