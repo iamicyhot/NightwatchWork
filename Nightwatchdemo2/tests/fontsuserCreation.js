@@ -6,7 +6,7 @@ module.exports = {
 	{		
     
     client
-		.url("http://www.fonts.com/")
+		.url("http://www.howdy.fonts.com/")
 		.waitForElementVisible("a[href='/secure/become-a-member']", 6000)
 		.click("a[href='/secure/become-a-member']")
 		.waitForElementVisible("#Email", 6000)
@@ -15,7 +15,6 @@ module.exports = {
 		.setValue("#ConfirmPassword", "bla@bla.com")
 		.click("input[value='Create Account']")
 		.saveScreenshot("./screenshots"+i+".png")
-		//error message : ".error.user-message>p"
 	}
 		
   }

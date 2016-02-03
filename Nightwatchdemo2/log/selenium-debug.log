@@ -1,78 +1,87 @@
-19:18:12.681 INFO - Launching a standalone server
+15:52:15.467 INFO - Launching a standalone server
 Setting system property webdriver.chrome.driver to lib/drivers/chromedriver.exe
 Setting system property webdriver.ie.driver to lib/drivers/IEDriverServer.exe
-19:18:12.868 INFO - Java: Oracle Corporation 25.51-b03
-19:18:12.868 INFO - OS: Windows 8.1 6.3 amd64
-19:18:12.889 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
-19:18:13.156 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-19:18:13.158 INFO - Version Jetty/5.1.x
-19:18:13.160 INFO - Started HttpContext[/selenium-server,/selenium-server]
-19:18:13.294 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1b40d5f0
-19:18:13.294 INFO - Started HttpContext[/wd,/wd]
-19:18:13.294 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-19:18:13.294 INFO - Started HttpContext[/,/]
-19:18:13.302 INFO - Started SocketListener on 0.0.0.0:4444
-19:18:13.302 INFO - Started org.openqa.jetty.jetty.Server@7cd84586
-19:18:13.854 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
-19:18:13.876 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
-Starting ChromeDriver (v2.9.248315) on port 48943
-19:18:16.249 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
-19:18:16.299 INFO - Executing: [get: http://howdy.fonts.com/])
-19:18:23.931 INFO - Done: [get: http://howdy.fonts.com/]
-19:18:23.951 INFO - Executing: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']])
-19:18:24.022 INFO - Done: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']]
-19:18:24.033 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (6e3fc346ce6dadae69a366fdf11fcfbb)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]])
-19:18:24.077 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (6e3fc346ce6dadae69a366fdf11fcfbb)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]]
-19:18:24.091 INFO - Executing: [find element: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']])
-19:18:24.129 INFO - Done: [find element: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']]
-19:18:24.137 INFO - Executing: [click: 0 [[ChromeDriver: chrome on WIN8_1 (6e3fc346ce6dadae69a366fdf11fcfbb)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]])
-19:18:24.229 INFO - Done: [click: 0 [[ChromeDriver: chrome on WIN8_1 (6e3fc346ce6dadae69a366fdf11fcfbb)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]]
-19:18:24.238 INFO - Executing: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName])
-19:18:25.113 WARN - Exception thrown
-org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=48.0.2564.97)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 68 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'noi-akashs-w81', ip: '172.28.1.198', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\satijaa\AppData\Local\Temp\scoped_dir11816_8067}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=48.0.2564.97, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 6e3fc346ce6dadae69a366fdf11fcfbb
-*** Element info: {Using=css selector, value=ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:441)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:426)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-19:18:25.121 WARN - Exception: no such element
-  (Session info: chrome=48.0.2564.97)
-  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.3 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 68 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'noi-akashs-w81', ip: '172.28.1.198', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\satijaa\AppData\Local\Temp\scoped_dir11816_8067}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=48.0.2564.97, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 6e3fc346ce6dadae69a366fdf11fcfbb
-*** Element info: {Using=css selector, value=ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName}
+15:52:15.648 INFO - Java: Oracle Corporation 25.51-b03
+15:52:15.648 INFO - OS: Windows 8.1 6.3 amd64
+15:52:15.669 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+15:52:15.927 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:52:15.929 INFO - Version Jetty/5.1.x
+15:52:15.932 INFO - Started HttpContext[/selenium-server,/selenium-server]
+15:52:16.050 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1b40d5f0
+15:52:16.051 INFO - Started HttpContext[/wd,/wd]
+15:52:16.051 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+15:52:16.051 INFO - Started HttpContext[/,/]
+15:52:16.058 INFO - Started SocketListener on 0.0.0.0:4444
+15:52:16.058 INFO - Started org.openqa.jetty.jetty.Server@7cd84586
+15:52:16.545 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+15:52:16.565 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 37605
+15:52:19.319 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+15:52:19.354 INFO - Executing: [get: http://howdy.fonts.com/])
+15:52:24.038 INFO - Done: [get: http://howdy.fonts.com/]
+15:52:24.056 INFO - Executing: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']])
+15:52:24.124 INFO - Done: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']]
+15:52:24.133 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]])
+15:52:24.175 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]]
+15:52:24.189 INFO - Executing: [find element: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']])
+15:52:24.227 INFO - Done: [find element: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']]
+15:52:24.235 INFO - Executing: [click: 0 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]])
+15:52:24.312 INFO - Done: [click: 0 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]]
+15:52:24.326 INFO - Executing: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName])
+15:52:24.379 INFO - Done: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]
+15:52:24.887 INFO - Executing: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName])
+15:52:24.927 INFO - Done: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]
+15:52:24.935 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]])
+15:52:24.979 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]]
+15:52:24.989 INFO - Executing: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName])
+15:52:25.030 INFO - Done: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]
+15:52:25.038 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName], [0, @, b, l, a, ., c, o, m]])
+15:52:25.176 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName], [0, @, b, l, a, ., c, o, m]]
+15:52:25.184 INFO - Executing: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password])
+15:52:25.251 INFO - Done: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password]
+15:52:25.257 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password]])
+15:52:25.298 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password]]
+15:52:25.309 INFO - Executing: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password])
+15:52:25.351 INFO - Done: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password]
+15:52:25.358 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password], [b, l, a, @, b, l, a, ., c, o, m]])
+15:52:25.499 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password], [b, l, a, @, b, l, a, ., c, o, m]]
+15:52:25.508 INFO - Executing: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']])
+15:52:25.560 INFO - Done: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]
+15:52:25.569 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]])
+15:52:25.612 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]]
+15:52:25.622 INFO - Executing: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']])
+15:52:25.660 INFO - Done: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]
+15:52:25.666 INFO - Executing: [click: 3 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]])
+15:52:25.750 INFO - Done: [click: 3 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]]
+15:52:25.757 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
+15:52:25.870 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
+15:52:26.378 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
+15:52:26.416 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
+15:52:26.925 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
+15:52:26.946 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
+15:52:27.454 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
+15:52:27.470 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
+15:52:27.978 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
+15:52:27.995 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
+15:52:28.503 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
+15:52:31.888 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
+15:52:31.894 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: a[href='/account']]])
+15:52:31.934 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: a[href='/account']]]
+15:52:31.942 INFO - Executing: [find element: By.cssSelector: a[href='/account']])
+15:52:31.998 INFO - Done: [find element: By.cssSelector: a[href='/account']]
+15:52:32.003 INFO - Executing: [click: 4 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: a[href='/account']]])
+15:52:32.087 INFO - Done: [click: 4 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: a[href='/account']]]
+15:52:32.095 INFO - Executing: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']])
+15:52:32.171 INFO - Done: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']]
+15:52:32.179 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]])
+15:52:32.238 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]]
+15:52:32.745 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]])
+15:52:32.763 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]]
+15:52:32.771 INFO - Executing: [find element: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']])
+15:52:32.808 INFO - Done: [find element: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']]
+15:52:32.813 INFO - Executing: [click: 5 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]])
+15:52:32.890 INFO - Done: [click: 5 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]]
+15:52:32.896 INFO - Executing: [find element: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']])
+15:52:32.915 INFO - Done: [find element: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']]
+15:52:32.920 INFO - Executing: [click: 5 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]])
+15:52:32.975 INFO - Done: [click: 5 [[ChromeDriver: chrome on WIN8_1 (65a277ec81e190045bf8ac5eb4da3fe5)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]]
