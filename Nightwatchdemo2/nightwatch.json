@@ -7,10 +7,6 @@
   "globals_path" : "data/credentials.js",
   "waitForConditionPollInterval" : 5000,
   "waitForConditionTimeout": 10000,
-  "globals" : {
-  "waitForConditionPollInterval" : 5000,
-  "waitForConditionTimeout": 10000
-},
   
   "selenium" : {
     "start_process" : true,

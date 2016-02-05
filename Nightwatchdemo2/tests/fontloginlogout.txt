@@ -1,0 +1,24 @@
+
+module.exports = {
+'fonts.com login' : function (client) {		
+    
+    client
+		.url("http://howdy.fonts.com/")
+		.waitForElementVisible(".ajax-has-dropdown a[href='/secure/sign-in']")
+		.click(".ajax-has-dropdown a[href='/secure/sign-in']")
+		.waitForElementVisible("ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName",3000)
+		.setValue("ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName", "0@bla.com")
+		.waitForElementVisible("ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password",3000)
+		.setValue("ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password", "bla@bla.com")
+		.waitForElementVisible("ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']",3000)
+		.click("ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']")
+		.waitForElementVisible("a[href='/account']")
+		.click("a[href='/account']")
+		.waitForElementVisible(".ajax-has-dropdown a[href='/customer/logout']")
+		.click(".ajax-has-dropdown a[href='/customer/logout']")
+		.click(".ajax-has-dropdown a[href='/customer/logout']")
+		
+	
+		
+  }
+}

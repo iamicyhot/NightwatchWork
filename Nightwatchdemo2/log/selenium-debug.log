@@ -1,87 +1,419 @@
-18:42:01.706 INFO - Launching a standalone server
+17:20:05.591 INFO - Launching a standalone server
 Setting system property webdriver.chrome.driver to lib/drivers/chromedriver.exe
 Setting system property webdriver.ie.driver to lib/drivers/IEDriverServer.exe
-18:42:01.890 INFO - Java: Oracle Corporation 25.51-b03
-18:42:01.891 INFO - OS: Windows 8.1 6.3 amd64
-18:42:01.912 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
-18:42:02.186 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-18:42:02.188 INFO - Version Jetty/5.1.x
-18:42:02.192 INFO - Started HttpContext[/selenium-server,/selenium-server]
-18:42:02.320 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1b40d5f0
-18:42:02.321 INFO - Started HttpContext[/wd,/wd]
-18:42:02.321 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-18:42:02.321 INFO - Started HttpContext[/,/]
-18:42:02.329 INFO - Started SocketListener on 0.0.0.0:4444
-18:42:02.329 INFO - Started org.openqa.jetty.jetty.Server@7cd84586
-18:42:02.865 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
-18:42:02.888 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
-Starting ChromeDriver (v2.9.248315) on port 8272
-18:42:05.247 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Fontloginlogout, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
-18:42:05.291 INFO - Executing: [get: http://howdy.fonts.com/])
-18:42:13.220 INFO - Done: [get: http://howdy.fonts.com/]
-18:42:13.242 INFO - Executing: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']])
-18:42:13.317 INFO - Done: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']]
-18:42:13.326 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]])
-18:42:13.374 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]]
-18:42:13.388 INFO - Executing: [find element: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']])
-18:42:13.425 INFO - Done: [find element: By.cssSelector: .ajax-has-dropdown a[href='/secure/sign-in']]
-18:42:13.433 INFO - Executing: [click: 0 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]])
-18:42:13.509 INFO - Done: [click: 0 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/secure/sign-in']]]
-18:42:13.524 INFO - Executing: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName])
-18:42:13.578 INFO - Done: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]
-18:42:14.087 INFO - Executing: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName])
-18:42:14.126 INFO - Done: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]
-18:42:14.133 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]])
-18:42:14.174 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]]
-18:42:14.184 INFO - Executing: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName])
-18:42:14.224 INFO - Done: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName]
-18:42:14.234 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName], [0, @, b, l, a, ., c, o, m]])
-18:42:14.371 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #UserName], [0, @, b, l, a, ., c, o, m]]
-18:42:14.379 INFO - Executing: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password])
-18:42:14.445 INFO - Done: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password]
-18:42:14.452 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password]])
-18:42:14.495 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password]]
-18:42:14.504 INFO - Executing: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password])
-18:42:14.542 INFO - Done: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password]
-18:42:14.550 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password], [b, l, a, @, b, l, a, ., c, o, m]])
-18:42:14.695 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] #Password], [b, l, a, @, b, l, a, ., c, o, m]]
-18:42:14.705 INFO - Executing: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']])
-18:42:14.758 INFO - Done: [find elements: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]
-18:42:14.768 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]])
-18:42:14.809 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]]
-18:42:14.818 INFO - Executing: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']])
-18:42:14.854 INFO - Done: [find element: By.cssSelector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]
-18:42:14.860 INFO - Executing: [click: 3 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]])
-18:42:14.972 INFO - Done: [click: 3 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: ul[class='ajax-dropdown signinform'] li[data-action='target'] #member-signin-section #hovered-member-signin-section form[action='https://howdy.fonts.com/other/customer/signin'] input[value='Sign In']]]
-18:42:14.981 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
-18:42:15.091 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
-18:42:15.599 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
-18:42:15.641 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
-18:42:16.150 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
-18:42:16.185 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
-18:42:16.691 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
-18:42:16.707 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
-18:42:17.216 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
-18:42:17.233 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
-18:42:17.740 INFO - Executing: [find elements: By.cssSelector: a[href='/account']])
-18:42:20.363 INFO - Done: [find elements: By.cssSelector: a[href='/account']]
-18:42:20.370 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: a[href='/account']]])
-18:42:20.410 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: a[href='/account']]]
-18:42:20.416 INFO - Executing: [find element: By.cssSelector: a[href='/account']])
-18:42:20.460 INFO - Done: [find element: By.cssSelector: a[href='/account']]
-18:42:20.465 INFO - Executing: [click: 4 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: a[href='/account']]])
-18:42:20.542 INFO - Done: [click: 4 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: a[href='/account']]]
-18:42:20.550 INFO - Executing: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']])
-18:42:20.631 INFO - Done: [find elements: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']]
-18:42:20.642 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]])
-18:42:20.682 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]]
-18:42:21.187 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]])
-18:42:21.211 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]]
-18:42:21.222 INFO - Executing: [find element: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']])
-18:42:21.264 INFO - Done: [find element: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']]
-18:42:21.269 INFO - Executing: [click: 5 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]])
-18:42:21.396 INFO - Done: [click: 5 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]]
-18:42:21.404 INFO - Executing: [find element: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']])
-18:42:21.434 INFO - Done: [find element: By.cssSelector: .ajax-has-dropdown a[href='/customer/logout']]
-18:42:21.439 INFO - Executing: [click: 5 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]])
-18:42:21.521 INFO - Done: [click: 5 [[ChromeDriver: chrome on WIN8_1 (0fcbe193a86e0c33df83d11d39b09dbc)] -> css selector: .ajax-has-dropdown a[href='/customer/logout']]]
+17:20:05.776 INFO - Java: Oracle Corporation 25.51-b03
+17:20:05.777 INFO - OS: Windows 8.1 6.3 amd64
+17:20:05.798 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+17:20:06.068 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:20:06.071 INFO - Version Jetty/5.1.x
+17:20:06.074 INFO - Started HttpContext[/selenium-server,/selenium-server]
+17:20:06.210 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@1b40d5f0
+17:20:06.210 INFO - Started HttpContext[/wd,/wd]
+17:20:06.210 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+17:20:06.211 INFO - Started HttpContext[/,/]
+17:20:06.220 INFO - Started SocketListener on 0.0.0.0:4444
+17:20:06.221 INFO - Started org.openqa.jetty.jetty.Server@7cd84586
+17:20:06.794 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Fontsuser Creation, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]])
+17:20:06.817 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Fontsuser Creation, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]
+Starting ChromeDriver (v2.9.248315) on port 11479
+17:20:09.231 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Fontsuser Creation, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[disable-web-security, ignore-certificate-errors, --test-type]}, platform=ANY}]]
+17:20:09.277 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:21.296 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:21.319 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:21.409 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:21.420 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:21.491 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:21.507 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:21.560 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:21.568 INFO - Executing: [click: 0 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:21.703 INFO - Done: [click: 0 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:21.719 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:21.804 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:21.896 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:21.946 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:22.035 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:22.053 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:22.141 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:22.166 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:22.173 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:22.215 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:22.226 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:22.264 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:22.273 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [0, @, b, l, a, ., c, o, m]])
+17:20:22.422 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [0, @, b, l, a, ., c, o, m]]
+17:20:22.431 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:22.496 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:22.504 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:22.667 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:22.677 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:22.722 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:22.732 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:22.918 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:22.927 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:22.977 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:22.984 INFO - Executing: [click: 5 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:23.080 INFO - Done: [click: 5 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:23.087 INFO - Executing: [take screenshot])
+17:20:23.842 INFO - Done: [take screenshot]
+17:20:23.979 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:25.508 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:25.517 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:25.561 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:25.568 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:25.608 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:25.618 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:25.640 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:25.646 INFO - Executing: [click: 6 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:25.735 INFO - Done: [click: 6 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:25.742 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:25.788 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:25.874 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:25.891 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:25.977 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:25.995 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:26.082 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:26.100 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:26.185 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:26.209 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:26.216 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:26.261 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:26.349 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:26.372 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:26.381 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:26.425 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:26.432 INFO - Executing: [send keys: 8 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [1, @, b, l, a, ., c, o, m]])
+17:20:26.640 INFO - Done: [send keys: 8 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [1, @, b, l, a, ., c, o, m]]
+17:20:26.647 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:26.761 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:26.769 INFO - Executing: [send keys: 9 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:26.982 INFO - Done: [send keys: 9 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:26.990 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:27.073 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:27.079 INFO - Executing: [send keys: 10 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:27.252 INFO - Done: [send keys: 10 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:27.258 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:27.311 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:27.316 INFO - Executing: [click: 11 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:27.413 INFO - Done: [click: 11 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:27.419 INFO - Executing: [take screenshot])
+17:20:27.947 INFO - Done: [take screenshot]
+17:20:28.054 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:29.374 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:29.382 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:29.425 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:29.433 INFO - Executing: [is displayed: 12 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:29.481 INFO - Done: [is displayed: 12 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:29.492 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:29.510 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:29.519 INFO - Executing: [click: 12 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:29.603 INFO - Done: [click: 12 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:29.610 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:29.649 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:29.736 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:29.759 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:29.847 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:29.866 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:29.952 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:29.971 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:29.980 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:30.026 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:30.111 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:30.134 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:30.143 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:30.161 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:30.168 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [2, @, b, l, a, ., c, o, m]])
+17:20:30.338 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [2, @, b, l, a, ., c, o, m]]
+17:20:30.346 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:30.413 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:30.421 INFO - Executing: [send keys: 15 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:30.706 INFO - Done: [send keys: 15 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:30.715 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:30.770 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:30.778 INFO - Executing: [send keys: 16 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:31.071 INFO - Done: [send keys: 16 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:31.080 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:31.103 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:31.108 INFO - Executing: [click: 17 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:31.195 INFO - Done: [click: 17 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:31.200 INFO - Executing: [take screenshot])
+17:20:31.733 INFO - Done: [take screenshot]
+17:20:31.819 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:33.064 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:33.072 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:33.096 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:33.104 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:33.147 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:33.155 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:33.174 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:33.179 INFO - Executing: [click: 18 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:33.273 INFO - Done: [click: 18 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:33.280 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:33.310 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:33.395 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:33.415 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:33.500 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:33.516 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:33.603 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:33.651 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:33.656 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:33.697 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:33.783 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:33.807 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:33.814 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:33.831 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:33.837 INFO - Executing: [send keys: 20 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [3, @, b, l, a, ., c, o, m]])
+17:20:33.993 INFO - Done: [send keys: 20 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [3, @, b, l, a, ., c, o, m]]
+17:20:33.999 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:34.049 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:34.055 INFO - Executing: [send keys: 21 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:34.260 INFO - Done: [send keys: 21 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:34.266 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:34.316 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:34.322 INFO - Executing: [send keys: 22 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:34.542 INFO - Done: [send keys: 22 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:34.549 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:34.609 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:34.614 INFO - Executing: [click: 23 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:34.713 INFO - Done: [click: 23 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:34.718 INFO - Executing: [take screenshot])
+17:20:35.242 INFO - Done: [take screenshot]
+17:20:35.365 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:36.569 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:36.575 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:36.602 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:36.609 INFO - Executing: [is displayed: 24 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:36.647 INFO - Done: [is displayed: 24 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:36.654 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:36.671 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:36.676 INFO - Executing: [click: 24 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:36.756 INFO - Done: [click: 24 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:36.761 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:36.795 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:36.881 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:36.898 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:36.983 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:36.998 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:37.083 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:37.106 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:37.111 INFO - Executing: [is displayed: 26 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:37.159 INFO - Done: [is displayed: 26 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:37.244 INFO - Executing: [is displayed: 26 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:37.277 INFO - Done: [is displayed: 26 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:37.284 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:37.320 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:37.325 INFO - Executing: [send keys: 26 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [4, @, b, l, a, ., c, o, m]])
+17:20:37.476 INFO - Done: [send keys: 26 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [4, @, b, l, a, ., c, o, m]]
+17:20:37.483 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:37.501 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:37.507 INFO - Executing: [send keys: 27 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:37.704 INFO - Done: [send keys: 27 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:37.712 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:37.773 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:37.780 INFO - Executing: [send keys: 28 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:37.966 INFO - Done: [send keys: 28 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:37.971 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:38.011 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:38.015 INFO - Executing: [click: 29 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:38.159 INFO - Done: [click: 29 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:38.165 INFO - Executing: [take screenshot])
+17:20:38.668 INFO - Done: [take screenshot]
+17:20:38.789 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:40.091 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:40.098 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:40.117 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:40.124 INFO - Executing: [is displayed: 30 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:40.168 INFO - Done: [is displayed: 30 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:40.176 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:40.194 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:40.199 INFO - Executing: [click: 30 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:40.292 INFO - Done: [click: 30 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:40.300 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:40.353 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:40.438 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:40.459 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:40.545 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:40.561 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:40.648 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:40.672 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:40.678 INFO - Executing: [is displayed: 32 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:40.717 INFO - Done: [is displayed: 32 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:40.802 INFO - Executing: [is displayed: 32 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:40.823 INFO - Done: [is displayed: 32 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:40.836 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:40.852 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:40.858 INFO - Executing: [send keys: 32 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [5, @, b, l, a, ., c, o, m]])
+17:20:41.016 INFO - Done: [send keys: 32 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [5, @, b, l, a, ., c, o, m]]
+17:20:41.023 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:41.076 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:41.081 INFO - Executing: [send keys: 33 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:41.310 INFO - Done: [send keys: 33 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:41.316 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:41.362 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:41.369 INFO - Executing: [send keys: 34 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:41.592 INFO - Done: [send keys: 34 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:41.599 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:41.649 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:41.654 INFO - Executing: [click: 35 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:41.750 INFO - Done: [click: 35 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:41.755 INFO - Executing: [take screenshot])
+17:20:42.258 INFO - Done: [take screenshot]
+17:20:42.346 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:43.532 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:43.538 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:43.562 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:43.570 INFO - Executing: [is displayed: 36 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:43.609 INFO - Done: [is displayed: 36 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:43.618 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:43.639 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:43.644 INFO - Executing: [click: 36 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:43.726 INFO - Done: [click: 36 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:43.733 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:43.772 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:43.858 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:43.876 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:43.962 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:43.981 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:44.066 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:44.087 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:44.092 INFO - Executing: [is displayed: 38 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:44.139 INFO - Done: [is displayed: 38 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:44.236 INFO - Executing: [is displayed: 38 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:44.278 INFO - Done: [is displayed: 38 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:44.305 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:44.322 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:44.327 INFO - Executing: [send keys: 38 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [6, @, b, l, a, ., c, o, m]])
+17:20:44.494 INFO - Done: [send keys: 38 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [6, @, b, l, a, ., c, o, m]]
+17:20:44.500 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:44.549 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:44.558 INFO - Executing: [send keys: 39 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:44.756 INFO - Done: [send keys: 39 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:44.762 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:44.822 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:44.828 INFO - Executing: [send keys: 40 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:45.043 INFO - Done: [send keys: 40 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:45.049 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:45.103 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:45.109 INFO - Executing: [click: 41 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:45.213 INFO - Done: [click: 41 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:45.217 INFO - Executing: [take screenshot])
+17:20:45.732 INFO - Done: [take screenshot]
+17:20:45.869 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:47.087 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:47.094 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:47.115 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:47.122 INFO - Executing: [is displayed: 42 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:47.163 INFO - Done: [is displayed: 42 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:47.169 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:47.190 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:47.197 INFO - Executing: [click: 42 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:47.280 INFO - Done: [click: 42 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:47.285 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:47.323 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:47.409 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:47.428 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:47.514 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:47.529 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:47.614 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:47.636 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:47.641 INFO - Executing: [is displayed: 44 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:47.678 INFO - Done: [is displayed: 44 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:47.764 INFO - Executing: [is displayed: 44 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:47.789 INFO - Done: [is displayed: 44 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:47.795 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:47.814 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:47.820 INFO - Executing: [send keys: 44 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [7, @, b, l, a, ., c, o, m]])
+17:20:47.970 INFO - Done: [send keys: 44 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [7, @, b, l, a, ., c, o, m]]
+17:20:47.976 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:48.021 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:48.027 INFO - Executing: [send keys: 45 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:48.184 INFO - Done: [send keys: 45 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:48.189 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:48.246 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:48.251 INFO - Executing: [send keys: 46 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:48.446 INFO - Done: [send keys: 46 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:48.452 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:48.491 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:48.496 INFO - Executing: [click: 47 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:48.642 INFO - Done: [click: 47 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:48.647 INFO - Executing: [take screenshot])
+17:20:49.134 INFO - Done: [take screenshot]
+17:20:49.224 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:50.518 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:50.524 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:50.555 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:50.561 INFO - Executing: [is displayed: 48 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:50.605 INFO - Done: [is displayed: 48 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:50.612 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:50.657 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:50.662 INFO - Executing: [click: 48 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:50.756 INFO - Done: [click: 48 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:50.761 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:50.792 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:50.878 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:50.894 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:50.978 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:50.996 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:51.081 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:51.106 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:51.111 INFO - Executing: [is displayed: 50 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:51.147 INFO - Done: [is displayed: 50 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:51.231 INFO - Executing: [is displayed: 50 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:51.257 INFO - Done: [is displayed: 50 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:51.263 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:51.281 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:51.287 INFO - Executing: [send keys: 50 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [8, @, b, l, a, ., c, o, m]])
+17:20:51.436 INFO - Done: [send keys: 50 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [8, @, b, l, a, ., c, o, m]]
+17:20:51.442 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:51.500 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:51.507 INFO - Executing: [send keys: 51 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:51.698 INFO - Done: [send keys: 51 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:51.704 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:51.752 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:51.757 INFO - Executing: [send keys: 52 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:51.968 INFO - Done: [send keys: 52 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:51.974 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:52.030 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:52.034 INFO - Executing: [click: 53 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:52.141 INFO - Done: [click: 53 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:52.145 INFO - Executing: [take screenshot])
+17:20:52.667 INFO - Done: [take screenshot]
+17:20:52.745 INFO - Executing: [get: http://howdy.fonts.com/])
+17:20:53.923 INFO - Done: [get: http://howdy.fonts.com/]
+17:20:53.928 INFO - Executing: [find elements: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:53.946 INFO - Done: [find elements: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:53.953 INFO - Executing: [is displayed: 54 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:53.993 INFO - Done: [is displayed: 54 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:53.999 INFO - Executing: [find element: By.cssSelector: a[href='/secure/become-a-member']])
+17:20:54.016 INFO - Done: [find element: By.cssSelector: a[href='/secure/become-a-member']]
+17:20:54.020 INFO - Executing: [click: 54 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]])
+17:20:54.102 INFO - Done: [click: 54 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: a[href='/secure/become-a-member']]]
+17:20:54.107 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:54.146 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:54.231 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:54.248 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:54.333 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:54.352 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:54.438 INFO - Executing: [find elements: By.cssSelector: #Email])
+17:20:54.458 INFO - Done: [find elements: By.cssSelector: #Email]
+17:20:54.462 INFO - Executing: [is displayed: 56 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:54.499 INFO - Done: [is displayed: 56 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:54.584 INFO - Executing: [is displayed: 56 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]])
+17:20:54.606 INFO - Done: [is displayed: 56 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email]]
+17:20:54.613 INFO - Executing: [find element: By.cssSelector: #Email])
+17:20:54.636 INFO - Done: [find element: By.cssSelector: #Email]
+17:20:54.642 INFO - Executing: [send keys: 56 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [9, @, b, l, a, ., c, o, m]])
+17:20:54.803 INFO - Done: [send keys: 56 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #Email], [9, @, b, l, a, ., c, o, m]]
+17:20:54.808 INFO - Executing: [find element: By.cssSelector: form.create-account-form input#Password])
+17:20:54.834 INFO - Done: [find element: By.cssSelector: form.create-account-form input#Password]
+17:20:54.840 INFO - Executing: [send keys: 57 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:55.024 INFO - Done: [send keys: 57 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: form.create-account-form input#Password], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:55.030 INFO - Executing: [find element: By.cssSelector: #ConfirmPassword])
+17:20:55.071 INFO - Done: [find element: By.cssSelector: #ConfirmPassword]
+17:20:55.076 INFO - Executing: [send keys: 58 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]])
+17:20:55.281 INFO - Done: [send keys: 58 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: #ConfirmPassword], [b, l, a, @, b, l, a, ., c, o, m]]
+17:20:55.287 INFO - Executing: [find element: By.cssSelector: input[value='Create Account']])
+17:20:55.347 INFO - Done: [find element: By.cssSelector: input[value='Create Account']]
+17:20:55.352 INFO - Executing: [click: 59 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]])
+17:20:55.497 INFO - Done: [click: 59 [[ChromeDriver: chrome on WIN8_1 (e61cfe62d75cb782154f18b0eb81eadd)] -> css selector: input[value='Create Account']]]
+17:20:55.501 INFO - Executing: [take screenshot])
+17:20:55.998 INFO - Done: [take screenshot]
